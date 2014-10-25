@@ -38,8 +38,7 @@ setup(name='python-kadmin',
                   "./PyKAdminCommon.c",
                   "./PyKAdminXDR.c",
                   "./getdate.c"
-                  ],
-              extra_compile_args=["-O0"]
+                  ]
               )
           ],
       classifiers=[
